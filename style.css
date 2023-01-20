@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: rgb(248, 194, 93);
+}
+.section{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.head {
+    text-align: center;
+}
+.head h1{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.head p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.main {
+    border: 2px solid black;
+    height: auto;
+    width: 50%;
+    margin-right:25vw;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(151, 0, 76);
+}
+
+.cir1 {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10rem;
+    background-color: yellow;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.cir2 {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10rem;
+    background-color: blue;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.cir3 {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10rem;
+    background-color: red;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.cir4 {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10rem;
+    background-color: green;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.arrow {
+    font-size: 1.4rem;
+    padding-left: 34rem;
+
+}
+
+.btn {
+    margin-bottom: 2rem;
+    margin-right: 25vw;
+}
+
+.reset {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 5px;
+}
